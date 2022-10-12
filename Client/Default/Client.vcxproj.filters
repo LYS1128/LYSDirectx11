@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{ea571853-10f6-498d-8db3-a84f1e63be25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels">
+      <UniqueIdentifier>{41737d75-a3f4-49a2-bfe1-7c40427fd92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\00. Logo">
+      <UniqueIdentifier>{0a9af330-4e7c-4802-824d-d4e30c61afef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\01. Loading">
+      <UniqueIdentifier>{d8e060e9-e669-4d0a-8c0e-185ef608a9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\02. GamePlay">
+      <UniqueIdentifier>{c12455ef-6cfe-499f-b791-86e26c78f8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{486f33b8-c1a5-4ec9-a2fd-0e1e8b3bcc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{80a334db-2690-4721-8746-0845aa02fa97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\01. Loading\Loader">
+      <UniqueIdentifier>{5ecc6eb9-23ca-4404-918d-4b06cae11eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{db9322e4-f182-4406-afe3-02f8aa734632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{a97b6699-e59f-4c44-b3a0-c19e9eacdd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Player">
+      <UniqueIdentifier>{1b7757a8-2364-40bf-a466-b32164ccfe91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\SkyBox">
+      <UniqueIdentifier>{b7a1454f-3f61-4b86-9025-97fdcc862288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\SkyBox\Cloud">
+      <UniqueIdentifier>{53e8be99-897f-424d-9bdf-2ec210774eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\SkyBox\Sky">
+      <UniqueIdentifier>{0758be78-320a-434d-b121-dfba9288b122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI">
+      <UniqueIdentifier>{e7858068-82a0-43cf-b244-5a01ff667036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\00.Level_Logo">
+      <UniqueIdentifier>{c37d7d65-5f99-4221-ba56-f925a65f97c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\01.Level_Loading">
+      <UniqueIdentifier>{4db4473c-8385-4fbd-b559-d84533bc195b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay">
+      <UniqueIdentifier>{3a3c0f59-5028-47dd-b98b-acb22c984a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\00.Level_Logo\BackGround">
+      <UniqueIdentifier>{de87ab61-940b-4f1f-80a4-cee8ec997864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\00.Level_Logo\GamePlayB">
+      <UniqueIdentifier>{18c4d76b-28cb-445b-8ae9-6395d9fe508d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\00.Level_Logo\HowToPlayB">
+      <UniqueIdentifier>{33340257-298a-4bca-93e3-9353415b2702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\00.Level_Logo\QuitB">
+      <UniqueIdentifier>{b25f84a4-f2d0-49b5-8af4-0e6dd1a141a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\01.Level_Loading\LoadGround">
+      <UniqueIdentifier>{19febc2f-b6d1-4c2e-80cc-a773ddd9ce05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\01.Level_Loading\LoadKey">
+      <UniqueIdentifier>{892e7b88-d2e5-4399-81a1-7214d31434cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\HP_UI">
+      <UniqueIdentifier>{d791dfde-3840-42b4-922c-20bd3f391399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\HP_UI_Main">
+      <UniqueIdentifier>{38fc0810-7cba-4843-9b88-8374b2cdd8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\Tooth_UI">
+      <UniqueIdentifier>{19b5c663-bb84-4f2d-b7d6-45b79512080d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Player\Blade">
+      <UniqueIdentifier>{dc337ba3-3175-4481-8c82-e828ba634f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\Tooth_Num_UI">
+      <UniqueIdentifier>{ee1466dc-10d3-4403-aa02-28c7884411be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Player\Gun">
+      <UniqueIdentifier>{6ec007c2-711e-438e-8d7c-5fa337c9569b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\Gun_UI">
+      <UniqueIdentifier>{c00be13c-3ba3-42b7-bc63-dc259c36cd6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\Gun_Overload_UI">
+      <UniqueIdentifier>{7c6b26df-bf52-4526-bac0-e98a8255e68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Player\Gun\Bullet">
+      <UniqueIdentifier>{7456bf5d-789b-46d0-a82f-eba9259b5637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\Gun_Aim_UI">
+      <UniqueIdentifier>{7756d5ed-497a-46df-b033-57b343f885b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\03. Boss">
+      <UniqueIdentifier>{80474780-ce61-4b8c-885f-ad19eb137f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\SkyBox\NightSky">
+      <UniqueIdentifier>{13aa78dc-f0a3-4fbb-8969-c39c1e6de949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Camera">
+      <UniqueIdentifier>{aa040e6e-12b4-48a7-bfa0-6ca377555fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect">
+      <UniqueIdentifier>{abae5292-2ec7-4861-86b2-c9cf2ddea82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\RushButterfly">
+      <UniqueIdentifier>{2b19dfdd-986e-4483-b2c2-488e7cde67cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\StartButterfly">
+      <UniqueIdentifier>{7874e48d-ee42-47f4-9cdf-91c19ba13c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\WindStroke">
+      <UniqueIdentifier>{10147b75-185a-4021-a3c2-e5d78cb5367d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\WindStroke\JumpFeather">
+      <UniqueIdentifier>{1fdac869-434c-4472-a008-03b7ec5cd45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\FallStroke">
+      <UniqueIdentifier>{4439c35d-213e-429c-a58f-03f15cdc0b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\FallStroke\FallFeather">
+      <UniqueIdentifier>{b9b7d9dc-f6f4-42b0-9b54-ccae664fc9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Map">
+      <UniqueIdentifier>{39190923-408d-4115-bc16-346a62c0e7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Map\Fork">
+      <UniqueIdentifier>{fe403a0d-ad15-4c60-84c2-7367a1b4a2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Map\Fork2">
+      <UniqueIdentifier>{dfe23c3c-ed41-4ad7-b976-ebd656d89c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Map\Fork3">
+      <UniqueIdentifier>{002c52de-f06d-4811-9f32-20e3afc416d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Map\Fork4">
+      <UniqueIdentifier>{e2925fcb-40c7-4710-bf1d-d10982567108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Map\ForkBoss">
+      <UniqueIdentifier>{dd75ef36-68ac-4dd8-9899-df23db17e369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay">
+      <UniqueIdentifier>{bf2794ff-6d1b-40f3-9254-adb766715bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Bolterfly">
+      <UniqueIdentifier>{f6cad821-3448-4c43-a7e8-6fae2594c153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\CardGuard">
+      <UniqueIdentifier>{328c6ba4-cb1c-401e-9730-8608b7d4b591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\CardGuard\Weapon">
+      <UniqueIdentifier>{b218adfe-1d6a-4390-9ad5-d421bc5364ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\CardGuard\WeaponLamp">
+      <UniqueIdentifier>{6887b83b-f474-446c-bf64-c0b3074e45cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Domino">
+      <UniqueIdentifier>{aea9fea7-8a91-4b04-9b5e-7389db794f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\FleshLamp">
+      <UniqueIdentifier>{5ffbfed2-fe9a-4785-80e6-72915aa92ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\IronHive">
+      <UniqueIdentifier>{058879e8-61ef-4508-9fc4-fd7b2b5cf303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\IronHive\HivePartA">
+      <UniqueIdentifier>{3486293e-7d9d-4fa6-9b65-4426d328e8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\IronHive\HivePartB">
+      <UniqueIdentifier>{bae81c35-f2da-4908-8873-2fef3b455c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\IronHive\HivePartC">
+      <UniqueIdentifier>{9d2161a6-5704-48df-8b03-a730c30af93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\JumpPad">
+      <UniqueIdentifier>{061fcbb4-5be8-40b7-8025-b451cba020a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Leave">
+      <UniqueIdentifier>{7f1bad73-bb6c-49b5-af90-5afe6aa2504c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\MetalPole">
+      <UniqueIdentifier>{363efba3-8469-4ddf-a8a2-5d8ba2c6eb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Monster">
+      <UniqueIdentifier>{0931c66a-4019-47e8-b64f-67ca5c378df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Nutterfly">
+      <UniqueIdentifier>{ab2d986f-58c2-4992-bb26-21ef1cb4ffcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\PigNose">
+      <UniqueIdentifier>{d8af118c-2e23-4e69-a7fc-57921f6128e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss">
+      <UniqueIdentifier>{cd78e7bb-2c23-4fb0-bdbf-4200ba8556aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Queen">
+      <UniqueIdentifier>{eafb34fe-70d4-448e-aeed-767a77e8583a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\QueenTower">
+      <UniqueIdentifier>{883c5a05-feea-49d9-869d-a3451465d9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Executioner">
+      <UniqueIdentifier>{858dafa7-6c53-4f6b-b236-b98ee823ce58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Executioner\ExeWeapon">
+      <UniqueIdentifier>{1dbe60d3-344f-441f-8128-15730bf05751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Doll">
+      <UniqueIdentifier>{6146610f-883c-4be0-8d1a-be1958598edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Doll\DollHead">
+      <UniqueIdentifier>{db22b514-2f6e-4889-add5-b9c8bb00f177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Doll\DollLeft">
+      <UniqueIdentifier>{af12b189-4be9-4925-99b4-25521d9044da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Doll\DollRight">
+      <UniqueIdentifier>{5cc8b66d-01a6-4bd4-8ba4-320a96b24010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Doll\DollBody">
+      <UniqueIdentifier>{21eb11e6-d6c0-4c97-9ce2-1b8a92d9a1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Heart">
+      <UniqueIdentifier>{d35bad9b-1c9c-4ff0-8b18-e1d62b7611a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Knight">
+      <UniqueIdentifier>{ddd9a843-cf68-421a-a4b2-334ca2e75cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Knight\Tornado">
+      <UniqueIdentifier>{8330aa2d-ef3d-4670-a338-e822ae2c818c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Flower">
+      <UniqueIdentifier>{ae14c1cf-a733-435b-aecc-9fd758ddd320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Flower\Petal">
+      <UniqueIdentifier>{79918d25-7d66-47b0-bdb7-2883320deb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Chandelier">
+      <UniqueIdentifier>{54d0cc4e-ca74-489c-8fe8-7ea0d54999ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\Chandelier\RedCircle">
+      <UniqueIdentifier>{0e2c6a2a-5991-4e9d-85e9-575bc86669a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\RedSquare">
+      <UniqueIdentifier>{57341197-37d5-4b64-94e7-315eede846c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\QueenTower\Laser">
+      <UniqueIdentifier>{b9facb2c-5d64-4b6f-8a89-debacfb84aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\QueenMace">
+      <UniqueIdentifier>{371d3ebc-a5e4-45ce-b620-916472010f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\FadeInOut">
+      <UniqueIdentifier>{c815d31a-cf20-4a17-aac3-fb4fd0e5ccc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjBoss\QueenAlice">
+      <UniqueIdentifier>{ae0b2feb-ede9-49ec-b89a-7be686d2cb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\CarriageCar">
+      <UniqueIdentifier>{6bdac07b-642c-41ae-98a5-d8e68fffcea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\Trail">
+      <UniqueIdentifier>{424fd4b5-3b1e-48e7-a255-64346ed2c15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Tooth1">
+      <UniqueIdentifier>{93a590be-34f9-4a00-ba9a-ed11589cf4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Shell2">
+      <UniqueIdentifier>{b59f9a2e-e5ee-4053-8896-ca1974153cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Shell2\PartA">
+      <UniqueIdentifier>{3e540a90-91c3-47a3-87a1-46d21d76ef14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Shell2\PartB">
+      <UniqueIdentifier>{e94d81ff-cbcc-4f8a-95d1-5b603e784a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\Shell2\PartC">
+      <UniqueIdentifier>{580e7724-8a2f-4031-a334-502b6940b109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\02.Level_GamePlay\Super_UI">
+      <UniqueIdentifier>{1e948904-ff40-4d4a-a1d3-70dbd8af1a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\GlowLight">
+      <UniqueIdentifier>{4042b1e8-e430-49d7-b280-0c2821353ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\SparkEffect">
+      <UniqueIdentifier>{7f915d24-63d6-47cb-a98a-f556e923c7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\ObjGamePlay\WaterPlane">
+      <UniqueIdentifier>{b063df86-2554-41ae-886c-850e62664e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\DustEffect">
+      <UniqueIdentifier>{837299f2-2bb3-4ff7-bcc0-a13bdcdeae1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\MonTrail">
+      <UniqueIdentifier>{f38025ad-659a-47bc-9338-cc632cab3f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\StrikeLine">
+      <UniqueIdentifier>{68b701b5-ccfa-467f-a4a0-2f3c5288d701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect\ExeTrail">
+      <UniqueIdentifier>{871b09ed-292d-4f32-a797-365a7c71771b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\UI\00.Level_Logo\HowToPlay">
+      <UniqueIdentifier>{84147eac-511b-4134-a6ba-945cbe85676d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01. Levels\02. GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01. Levels\01. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01. Levels\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Default.h">
+      <Filter>02. GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01. Levels\01. Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>02. GameObject\UI\00.Level_Logo\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bin\ShaderFiles\Shader_Defines.hpp">
+      <Filter>97. ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fork.h">
+      <Filter>02. GameObject\Map\Fork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cloud.h">
+      <Filter>02. GameObject\SkyBox\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02. GameObject\SkyBox\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>02. GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GamePlayB.h">
+      <Filter>02. GameObject\UI\00.Level_Logo\GamePlayB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HowToPlayB.h">
+      <Filter>02. GameObject\UI\00.Level_Logo\HowToPlayB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuitB.h">
+      <Filter>02. GameObject\UI\00.Level_Logo\QuitB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LoadGround.h">
+      <Filter>02. GameObject\UI\01.Level_Loading\LoadGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LoadKey.h">
+      <Filter>02. GameObject\UI\01.Level_Loading\LoadKey</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HP_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\HP_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HP_UI_Main.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\HP_UI_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tooth_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Tooth_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02. GameObject\ObjGamePlay\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Blade.h">
+      <Filter>02. GameObject\Player\Blade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tooth_Num_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Tooth_Num_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tooth.h">
+      <Filter>02. GameObject\ObjGamePlay\Tooth1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RushButterfly.h">
+      <Filter>02. GameObject\Effect\RushButterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gun_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Gun_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gun.h">
+      <Filter>02. GameObject\Player\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gun_Overload_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Gun_Overload_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet.h">
+      <Filter>02. GameObject\Player\Gun\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gun_Aim_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Gun_Aim_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StartButterfly.h">
+      <Filter>02. GameObject\Effect\StartButterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\IronHive.h">
+      <Filter>02. GameObject\ObjGamePlay\IronHive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bolterfly.h">
+      <Filter>02. GameObject\ObjGamePlay\Bolterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkTwo.h">
+      <Filter>02. GameObject\Map\Fork2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JumpPad.h">
+      <Filter>02. GameObject\ObjGamePlay\JumpPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shell.h">
+      <Filter>02. GameObject\ObjGamePlay\Shell2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShellPartA.h">
+      <Filter>02. GameObject\ObjGamePlay\Shell2\PartA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShellPartB.h">
+      <Filter>02. GameObject\ObjGamePlay\Shell2\PartB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ShellPartC.h">
+      <Filter>02. GameObject\ObjGamePlay\Shell2\PartC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WindStroke.h">
+      <Filter>02. GameObject\Effect\WindStroke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\JumpFeather.h">
+      <Filter>02. GameObject\Effect\WindStroke\JumpFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FallStroke.h">
+      <Filter>02. GameObject\Effect\FallStroke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FallFeather.h">
+      <Filter>02. GameObject\Effect\FallStroke\FallFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkThree.h">
+      <Filter>02. GameObject\Map\Fork3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HivePartA.h">
+      <Filter>02. GameObject\ObjGamePlay\IronHive\HivePartA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HivePartB.h">
+      <Filter>02. GameObject\ObjGamePlay\IronHive\HivePartB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HivePartC.h">
+      <Filter>02. GameObject\ObjGamePlay\IronHive\HivePartC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PigNose.h">
+      <Filter>02. GameObject\ObjGamePlay\PigNose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Domino.h">
+      <Filter>02. GameObject\ObjGamePlay\Domino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardGuard.h">
+      <Filter>02. GameObject\ObjGamePlay\CardGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CGWeapon.h">
+      <Filter>02. GameObject\ObjGamePlay\CardGuard\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MetalPole.h">
+      <Filter>02. GameObject\ObjGamePlay\MetalPole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FleshLamp.h">
+      <Filter>02. GameObject\ObjGamePlay\FleshLamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WeaponLamp.h">
+      <Filter>02. GameObject\ObjGamePlay\CardGuard\WeaponLamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Nutterfly.h">
+      <Filter>02. GameObject\ObjGamePlay\Nutterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Leave.h">
+      <Filter>02. GameObject\ObjGamePlay\Leave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkFour.h">
+      <Filter>02. GameObject\Map\Fork4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CarriageCar.h">
+      <Filter>02. GameObject\ObjGamePlay\CarriageCar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Boss.h">
+      <Filter>01. Levels\03. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkBoss.h">
+      <Filter>02. GameObject\Map\ForkBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NightSky.h">
+      <Filter>02. GameObject\SkyBox\NightSky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Queen.h">
+      <Filter>02. GameObject\ObjBoss\Queen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QueenBase.h">
+      <Filter>02. GameObject\ObjBoss\Queen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QueenTower.h">
+      <Filter>02. GameObject\ObjBoss\QueenTower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Executioner.h">
+      <Filter>02. GameObject\ObjBoss\Executioner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExeWeapon.h">
+      <Filter>02. GameObject\ObjBoss\Executioner\ExeWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Doll.h">
+      <Filter>02. GameObject\ObjBoss\Doll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DollHead.h">
+      <Filter>02. GameObject\ObjBoss\Doll\DollHead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DollLeft.h">
+      <Filter>02. GameObject\ObjBoss\Doll\DollLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DollRight.h">
+      <Filter>02. GameObject\ObjBoss\Doll\DollRight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DollBody.h">
+      <Filter>02. GameObject\ObjBoss\Doll\DollBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Heart.h">
+      <Filter>02. GameObject\ObjBoss\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Knight.h">
+      <Filter>02. GameObject\ObjBoss\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tornado.h">
+      <Filter>02. GameObject\ObjBoss\Knight\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Flower.h">
+      <Filter>02. GameObject\ObjGamePlay\Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Petal.h">
+      <Filter>02. GameObject\ObjGamePlay\Flower\Petal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chandelier.h">
+      <Filter>02. GameObject\ObjBoss\Chandelier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedCircle.h">
+      <Filter>02. GameObject\ObjBoss\Chandelier\RedCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedSquare.h">
+      <Filter>02. GameObject\ObjBoss\RedSquare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Laser.h">
+      <Filter>02. GameObject\ObjBoss\QueenTower\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QueenMace.h">
+      <Filter>02. GameObject\ObjBoss\QueenMace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FadeInOut.h">
+      <Filter>02. GameObject\ObjBoss\FadeInOut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QueenAlice.h">
+      <Filter>02. GameObject\ObjBoss\QueenAlice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TrailEffect.h">
+      <Filter>02. GameObject\Effect\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Super_UI.h">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Super_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GlowLight.h">
+      <Filter>02. GameObject\Effect\GlowLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SparkEffect.h">
+      <Filter>02. GameObject\Effect\SparkEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WaterPlane.h">
+      <Filter>02. GameObject\ObjGamePlay\WaterPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DustEffect.h">
+      <Filter>02. GameObject\Effect\DustEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonTrailEffect.h">
+      <Filter>02. GameObject\Effect\MonTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StrikeLine.h">
+      <Filter>02. GameObject\Effect\StrikeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExeTrailEffect.h">
+      <Filter>02. GameObject\Effect\ExeTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HowToPlay.h">
+      <Filter>02. GameObject\UI\00.Level_Logo\HowToPlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01. Levels\02. GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01. Levels\01. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01. Levels\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Default.cpp">
+      <Filter>02. GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01. Levels\01. Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>02. GameObject\UI\00.Level_Logo\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fork.cpp">
+      <Filter>02. GameObject\Map\Fork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cloud.cpp">
+      <Filter>02. GameObject\SkyBox\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02. GameObject\SkyBox\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>02. GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GamePlayB.cpp">
+      <Filter>02. GameObject\UI\00.Level_Logo\GamePlayB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HowToPlayB.cpp">
+      <Filter>02. GameObject\UI\00.Level_Logo\HowToPlayB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuitB.cpp">
+      <Filter>02. GameObject\UI\00.Level_Logo\QuitB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LoadGround.cpp">
+      <Filter>02. GameObject\UI\01.Level_Loading\LoadGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LoadKey.cpp">
+      <Filter>02. GameObject\UI\01.Level_Loading\LoadKey</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HP_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\HP_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HP_UI_Main.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\HP_UI_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tooth_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Tooth_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Blade.cpp">
+      <Filter>02. GameObject\Player\Blade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tooth_Num_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Tooth_Num_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tooth.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Tooth1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RushButterfly.cpp">
+      <Filter>02. GameObject\Effect\RushButterfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gun_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Gun_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gun.cpp">
+      <Filter>02. GameObject\Player\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gun_Overload_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Gun_Overload_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet.cpp">
+      <Filter>02. GameObject\Player\Gun\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gun_Aim_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Gun_Aim_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StartButterfly.cpp">
+      <Filter>02. GameObject\Effect\StartButterfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\IronHive.cpp">
+      <Filter>02. GameObject\ObjGamePlay\IronHive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bolterfly.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Bolterfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkTwo.cpp">
+      <Filter>02. GameObject\Map\Fork2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JumpPad.cpp">
+      <Filter>02. GameObject\ObjGamePlay\JumpPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shell.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Shell2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShellPartC.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Shell2\PartC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShellPartB.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Shell2\PartB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ShellPartA.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Shell2\PartA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WindStroke.cpp">
+      <Filter>02. GameObject\Effect\WindStroke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\JumpFeather.cpp">
+      <Filter>02. GameObject\Effect\WindStroke\JumpFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FallStroke.cpp">
+      <Filter>02. GameObject\Effect\FallStroke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FallFeather.cpp">
+      <Filter>02. GameObject\Effect\FallStroke\FallFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkThree.cpp">
+      <Filter>02. GameObject\Map\Fork3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HivePartA.cpp">
+      <Filter>02. GameObject\ObjGamePlay\IronHive\HivePartA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HivePartB.cpp">
+      <Filter>02. GameObject\ObjGamePlay\IronHive\HivePartB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HivePartC.cpp">
+      <Filter>02. GameObject\ObjGamePlay\IronHive\HivePartC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PigNose.cpp">
+      <Filter>02. GameObject\ObjGamePlay\PigNose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Domino.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Domino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardGuard.cpp">
+      <Filter>02. GameObject\ObjGamePlay\CardGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CGWeapon.cpp">
+      <Filter>02. GameObject\ObjGamePlay\CardGuard\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MetalPole.cpp">
+      <Filter>02. GameObject\ObjGamePlay\MetalPole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FleshLamp.cpp">
+      <Filter>02. GameObject\ObjGamePlay\FleshLamp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WeaponLamp.cpp">
+      <Filter>02. GameObject\ObjGamePlay\CardGuard\WeaponLamp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Nutterfly.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Nutterfly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Leave.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Leave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkFour.cpp">
+      <Filter>02. GameObject\Map\Fork4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CarriageCar.cpp">
+      <Filter>02. GameObject\ObjGamePlay\CarriageCar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Boss.cpp">
+      <Filter>01. Levels\03. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkBoss.cpp">
+      <Filter>02. GameObject\Map\ForkBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NightSky.cpp">
+      <Filter>02. GameObject\SkyBox\NightSky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Queen.cpp">
+      <Filter>02. GameObject\ObjBoss\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QueenBase.cpp">
+      <Filter>02. GameObject\ObjBoss\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QueenTower.cpp">
+      <Filter>02. GameObject\ObjBoss\QueenTower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Executioner.cpp">
+      <Filter>02. GameObject\ObjBoss\Executioner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExeWeapon.cpp">
+      <Filter>02. GameObject\ObjBoss\Executioner\ExeWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Doll.cpp">
+      <Filter>02. GameObject\ObjBoss\Doll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DollHead.cpp">
+      <Filter>02. GameObject\ObjBoss\Doll\DollHead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DollLeft.cpp">
+      <Filter>02. GameObject\ObjBoss\Doll\DollLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DollRight.cpp">
+      <Filter>02. GameObject\ObjBoss\Doll\DollRight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DollBody.cpp">
+      <Filter>02. GameObject\ObjBoss\Doll\DollBody</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Heart.cpp">
+      <Filter>02. GameObject\ObjBoss\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Knght.cpp">
+      <Filter>02. GameObject\ObjBoss\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tornado.cpp">
+      <Filter>02. GameObject\ObjBoss\Knight\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Flower.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Petal.cpp">
+      <Filter>02. GameObject\ObjGamePlay\Flower\Petal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Chandelier.cpp">
+      <Filter>02. GameObject\ObjBoss\Chandelier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedCircle.cpp">
+      <Filter>02. GameObject\ObjBoss\Chandelier\RedCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedSquare.cpp">
+      <Filter>02. GameObject\ObjBoss\RedSquare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Laser.cpp">
+      <Filter>02. GameObject\ObjBoss\QueenTower\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QueenMace.cpp">
+      <Filter>02. GameObject\ObjBoss\QueenMace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FadeInOut.cpp">
+      <Filter>02. GameObject\ObjBoss\FadeInOut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QueenAlice.cpp">
+      <Filter>02. GameObject\ObjBoss\QueenAlice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TrailEffect.cpp">
+      <Filter>02. GameObject\Effect\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Super_UI.cpp">
+      <Filter>02. GameObject\UI\02.Level_GamePlay\Super_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GlowLight.cpp">
+      <Filter>02. GameObject\Effect\GlowLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SparkEffect.cpp">
+      <Filter>02. GameObject\Effect\SparkEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WaterPlane.cpp">
+      <Filter>02. GameObject\ObjGamePlay\WaterPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DustEffect.cpp">
+      <Filter>02. GameObject\Effect\DustEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonTrailEffect.cpp">
+      <Filter>02. GameObject\Effect\MonTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StrikeLine.cpp">
+      <Filter>02. GameObject\Effect\StrikeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExeTrailEffect.cpp">
+      <Filter>02. GameObject\Effect\ExeTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HowToPlay.cpp">
+      <Filter>02. GameObject\UI\00.Level_Logo\HowToPlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnim.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxRectInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNonAnim.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxBlur.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
